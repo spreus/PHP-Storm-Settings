@@ -1,0 +1,14 @@
+<templateSet group="PHP">
+  <template name="lget" value="Route::get($PREFIX$, function (){&#10;    $END$&#10;});" description="Laravel get Route" toReformat="false" toShortenFQNames="true">
+    <variable name="PREFIX" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="fcom" value="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;$DESCRIPTION$&quot;&gt;&#10;$END$&#10;// &lt;/editor-fold&gt;" description="Code folding section" toReformat="false" toShortenFQNames="true">
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
