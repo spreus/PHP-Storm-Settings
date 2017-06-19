@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ff0bafb8-a461-4ca4-850f-6d3f36dcc7c4" name="vm0345" url="http://vm0345.enterprisecloud.nu">
+        <fileTransfer host="vm0345.enterprisecloud.nu" port="22" rootFolder="/var/www" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
