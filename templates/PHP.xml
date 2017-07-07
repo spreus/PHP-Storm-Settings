@@ -11,4 +11,5 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="$" value="$this-&gt;" description="$this-&gt;" toReformat="false" toShortenFQNames="true" />
 </templateSet>
