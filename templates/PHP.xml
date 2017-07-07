@@ -11,5 +11,10 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="$" value="$this-&gt;" description="$this-&gt;" toReformat="false" toShortenFQNames="true" />
+  <template name="this" value="$this-&gt;" shortcut="TAB" description="$this-&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
 </templateSet>
