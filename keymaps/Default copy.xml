@@ -49,5 +49,9 @@
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="Replace" />
+  <action id="SelectNextOccurrence" />
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="alt j" />
+  </action>
   <action id="Vcs.UpdateProject" />
 </keymap>
